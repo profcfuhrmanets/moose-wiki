@@ -45,7 +45,7 @@ We have to specify the package in which the meta-model will be generated.
 ```st
 DemoMetamodelGenerator class >> #packageName
 
-    ^ #'Demo-Model-generated'
+    ^ #'Demo-Model-Generator'
 ```
 
 By default the package name will be used as a prefix for the generated classes.
